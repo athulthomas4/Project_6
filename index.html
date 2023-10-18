@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="zyqNRmuVrzL3A_bEurqmI93AiIJZiv6rO65n4lAdGRw" />
+    <title>Personal website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Style.js"></script>
+    <script src="https://kit.fontawesome.com/e29011d2a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo-name"><span>A</span>thul.</h1>
+                <ul id="sidemenu" style="font-weight: 600;">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Athul</span> <br>Thomas From Kerala</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------about------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <!----Skills----->
+
+                    <div class="tab-contents actiive-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, Javascript</li>
+                            <li><span>Python Web Development</span><br>Python</li>
+                            <li><span>Tally</span><br>Tally ERP 9</li>
+                            <li><span>M.S office</span><br>Excel, Word</li>
+                        </ul>
+                    </div>
+
+                    <!-----Experience----->
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023  - Present</span><br>Social Media Projects at Brototype Youtube Channel</li>
+                            <li><span>Nov 2022 - Present</span><br>Data Annotation at Roora ML Pvt.Ltd</li>
+                            <li><span>Feb 2020 - Present</span><br>Accountant at St.Sebastian’s Church</li>
+                            <li><span>July 2022 - Oct 2022</span><br>Accountant at Lunar Media</li>
+                            <li><span>Apr 2021 - Dec 2021</span><br>Purchase Manger at Olivia Projects</li>
+                        </ul>
+                    </div>
+
+                    <!----Education----->
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-present</span><br>Web Developer from Brototype Youtube Channel</li>
+                            <li><span>2022 Mar-May</span><br>Python Web Developer from Luminar Technolab</li>
+                            <li><span>20210 May-Nov</span><br>PDCFA from NIC College</li>
+                            <li><span>2017-2020</span><br>Bachelor of Commerce from Yuvakshetra College</li>
+                            <li><span>2022 Mar-May</span><br>Python Web Developer from Luminar Technolab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Services------>
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process.</p>
+                
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Data Annotation</h2>
+                    <p>Data annotation is the process of labeling data with relevant tags to make it easier for computers to understand and interpret. This data can be in the form of images, text, audio, or video, and data annotators need to label it as accurately as possible.</p>
+                
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Accountant</h2>
+                    <p>What is the role of an accountant?
+                        An Accountant helps businesses make critical financial decisions by collecting, tracking, and correcting the company's finances. They are responsible for financial audits, reconciling bank statements, and ensuring financial records are accurate throughout the year.</p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---portfolio----->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/netflix project.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Page</h3>
+                        <p>Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies on an internet-connected device. 
+                           made with HTML , CSS and JAVASCRIPT...</p>
+                        <a href="https://athulthomas4.github.io/Project_4/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/youtube project.png" alt="">
+                    <div class="layer">
+                        <h3>Youtube Website Page</h3>
+                        <p>YouTube is a free video sharing website that makes it easy to watch online videos. You can even create and upload your own videos to share with others. 
+                            made with HTML , CSS and JAVASCRIPT...
+                        </p>
+                        <a href="https://athulthomas4.github.io/Project_5/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/facebook project.png" alt="">
+                    <div class="layer">
+                        <h3>Facebook Login Page</h3>
+                        <p>Facebook is a social networking site that makes it easy for you to connect and share with family and friends online.
+                            programming languages ​​like  HTML, CSS and JAVASCRIPT are used to make it. </p>
+                        <a href="https://athulthomas4.github.io/Project_3/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calculator project 2.png" alt="">
+                    <div class="layer">
+                        <h3>Simple Calculator 2</h3>
+                        <p>This general-purpose calculator app looks and works like electronic calculators that you use at home or in your workplace. Apart from basic calculations such as addition, subtraction, multiplication and division, you can do so much more with this calculator.</p>
+                        <a href="https://athulthomas4.github.io/Project_2/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calculator project.png" alt="">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p>A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.
+                        </p>
+                        <a href="https://athulthomas4.github.io/Project_1/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            
+            </div>
+                
+            <a href="#"  class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----Contact------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> athulappu486@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 99954 03167</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/athulthomas4"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/s__h__a_d__o__w?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/athul-thomas-p/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Athul Resume.pdf" download class="btn btn-2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Athul. Made with <i class="fa-solid fa-heart"></i> by Athul Thomas</p>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx52Q3Mfh1NUIrNXKHxPEVZsHWEElcl0hiJUckyVlhsTE9sY1WrOQX3gCdSm_uJ9EJDsQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
